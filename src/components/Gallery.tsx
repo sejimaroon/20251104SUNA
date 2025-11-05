@@ -3,15 +3,15 @@ import { ImageWithFallback } from "./figma/ImageWithFallback";
 export function Gallery() {
   const images = [
     {
-      src: "../../img_01.jpg",
+      src: "/img_01.jpg",
       alt: "店内の様子1",
     },
     {
-      src: "../../img_01.jpg",
+      src: "/img_01.jpg",
       alt: "店内の様子2",
     },
     {
-      src: "../../img_01.jpg",
+      src: "/img_01.jpg",
       alt: "自慢のコーヒー",
     },
   ];

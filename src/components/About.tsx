@@ -9,7 +9,7 @@ export function About() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="relative aspect-[4/5] overflow-hidden rounded-lg shadow-lg">
               <ImageWithFallback
-                src="../../img_01.jpg"
+                src="/img_01.jpg"
                 alt="店主"
                 className="w-full h-full object-cover"
               />

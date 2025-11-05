@@ -5,7 +5,7 @@ export function Hero() {
     <section className="relative h-screen flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0">
         <ImageWithFallback
-          src="../../img_01.jpg"
+          src="/img_01.jpg"
           alt="喫茶店の雰囲気"
           className="w-full h-full object-cover"
         />

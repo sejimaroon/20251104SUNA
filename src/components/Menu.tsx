@@ -46,14 +46,14 @@ export function Menu() {
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             <div className="relative aspect-[4/3] overflow-hidden rounded-lg shadow-lg">
               <ImageWithFallback
-                src="../../img_01.jpg"
+                src="/img_01.jpg"
                 alt="コーヒー"
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="relative aspect-[4/3] overflow-hidden rounded-lg shadow-lg">
               <ImageWithFallback
-                src="../../img_01.jpg"
+                src="/img_01.jpg"
                 alt="ケーキ"
                 className="w-full h-full object-cover"
               />
