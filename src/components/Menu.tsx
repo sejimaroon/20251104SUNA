@@ -44,14 +44,14 @@ export function Menu() {
           </p>
 
           <div className="grid md:grid-cols-2 gap-8 mb-12">
-            <div className="relative aspect-[4/3] overflow-hidden rounded-lg shadow-lg">
+            <div className="relative aspect-[4/3] overflow-hidden rounded-lg shadow-lg hover-masked">
               <ImageWithFallback
                 src="/img_01.jpg"
                 alt="コーヒー"
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className="relative aspect-[4/3] overflow-hidden rounded-lg shadow-lg">
+            <div className="relative aspect-[4/3] overflow-hidden rounded-lg shadow-lg hover-masked masked-last">
               <ImageWithFallback
                 src="/img_01.jpg"
                 alt="ケーキ"

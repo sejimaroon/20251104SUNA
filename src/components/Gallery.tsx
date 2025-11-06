@@ -30,7 +30,7 @@ export function Gallery() {
             {images.map((image, index) => (
               <div
                 key={index}
-                className="relative aspect-square overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow"
+                className="relative aspect-square overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow hover-masked"
               >
                 <ImageWithFallback
                   src={image.src}

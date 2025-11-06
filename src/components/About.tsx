@@ -7,7 +7,7 @@ export function About() {
         <div className="max-w-6xl mx-auto">
           <h2 className="text-center mb-16 text-amber-900">店主について</h2>
           <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="relative aspect-[4/5] overflow-hidden rounded-lg shadow-lg">
+            <div className="relative aspect-[4/5] overflow-hidden rounded-lg shadow-lg hover-masked">
               <ImageWithFallback
                 src="/img_01.jpg"
                 alt="店主"
