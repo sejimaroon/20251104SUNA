@@ -1323,7 +1323,7 @@ html {
 }
 
 .hover-masked::after {
-  content: '我が名は佐藤京子。名前はまだない。';
+  content: '佐藤京子です。';
   position: absolute;
   top: 50%;
   left: 50%;
